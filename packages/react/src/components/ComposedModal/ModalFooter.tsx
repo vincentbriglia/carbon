@@ -110,7 +110,7 @@ export interface ModalFooterProps {
   /**
    * Pass in content that will be rendered in the Modal Footer
    */
-  children: ReactNode;
+  children?: ReactNode;
 
   /**
    * Specify a custom className to be applied to the Modal Footer container
